@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/williammuxworthy/Documents/makers_academy/week4/bookmarks/spec/features/index_page_spec.rb": [
+      "/Users/williammuxworthy/Documents/makers_academy/week4/bookmarks/spec/features/index_spec.rb": [
         1,
         null,
         1,
@@ -29,6 +29,6 @@
         null
       ]
     },
-    "timestamp": 1540411245
+    "timestamp": 1540563814
   }
 }

@@ -1,3 +1,12 @@
+<table>
+<tr>
+  <th>Title</th>
+  <th>URL</th>
+</tr>
 <% @bookmarks.each do |bookmark| %>
-<%= bookmark.title %>
+<tr>
+  <td><%= bookmark.title %></td>
+  <td><%= bookmark.url %></td>
+</tr>
+</table>
 <% end %>
