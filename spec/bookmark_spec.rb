@@ -2,7 +2,7 @@ require 'bookmark'
 
 describe Bookmark do
   it 'initializes with url and title' do
-    bookmark = Bookmark.new('Bookmark 1', 'bookmark.com')
+    bookmark = Bookmark.new('Bookmark 1', 'bookmark.comb')
     expect(bookmark.title).to eq 'Bookmark 1'
     expect(bookmark.url).to eq 'bookmark.com'
   end
