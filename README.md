@@ -23,3 +23,10 @@ $> psql postgres
 postgres=# CREATE DATABASE "your_user_name_here";
 CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
 ```
+
+
+### Diagrams
+
+![mvc](./images/mvc.png)
+![database diagram](./images/database_diagram.png)
+![views diagramd](./images/views_diagram.png)

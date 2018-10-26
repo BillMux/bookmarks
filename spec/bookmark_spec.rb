@@ -22,7 +22,7 @@ describe Bookmark do
 
   describe '.create' do
     it 'should add a new bookmark to database' do
-      Bookmark.create("http://www.makersacademy.com", 'Makers Academy')
+      Bookmark.create('http://www.makersacademy.com', 'Makers Academy')
       bookmarks = Bookmark.all
       expect(bookmarks[0].url).to eq('http://www.makersacademy.com')
     end

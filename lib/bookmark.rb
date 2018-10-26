@@ -30,6 +30,7 @@ class Bookmark
   end
 
   private
+
   def connect_to_db
     if ENV['ENV'] == 'test'
       PG.connect(dbname: 'bookmark_manager_test')
