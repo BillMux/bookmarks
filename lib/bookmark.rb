@@ -28,14 +28,4 @@ class Bookmark
     @title = title
     @url = url
   end
-
-  private
-
-  def connect_to_db
-    if ENV['ENV'] == 'test'
-      PG.connect(dbname: 'bookmark_manager_test')
-    else
-      PG.connect(dbname: 'bookmark_manager')
-    end
-  end
 end
