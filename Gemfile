@@ -8,7 +8,7 @@ gem 'sinatra/base'
 group :test do
   gem 'capybara'
   gem 'pg'
-  gem 'rack'
+  gem 'rack', '>= 2.0.6'
   gem 'rspec'
   gem 'rubocop', '0.56.0'
   gem 'simplecov', require: false
